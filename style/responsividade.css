@@ -1,0 +1,70 @@
+@media screen  and (max-width:915px){
+    
+    .nav-conta{
+        flex-direction: column;
+        display: block;
+    }
+}
+
+@media screen and (max-width:660px){
+    main{
+        display:inline-block;
+    }
+}
+
+@media screen  and (max-width:750px){
+    body{
+        text-align: center;
+        scroll-margin: none;
+    }
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        margin: auto;
+    }
+    .nav-conta{
+        display: flex;
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 0;
+        align-items: center;
+    }
+    main h2,p{
+        font-size: 36px;
+        margin-right: 50%;
+    }
+    img{
+        display: none;
+    }
+    aside{
+        display: inline-block;  
+    }
+    aside span{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    aside h2{
+        margin: 0 auto;
+    }
+    aside p{
+        margin: 0 auto;
+    }
+    form input{
+        margin:0 auto;
+        margin-top: 15px;
+        width: 60%;
+    }
+}
+
+
